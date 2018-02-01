@@ -1,5 +1,8 @@
 package com.allaboutscala.Chapter3.functions
 
+//implicit conversion method stringToDonutString should be enabled
+import scala.language.implicitConversions
+
 /**
   * Created by paul on 12/01/18.
   */

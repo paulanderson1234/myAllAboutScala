@@ -14,8 +14,9 @@ object stack extends App {
 
   //How to initialize Stack with 3 elements
   println("Step 1: How to initialize Stack with 3 elements")
-  val stack1: Stack[String] = Stack("Plain Donut", "Strawberry Donut", "Chocolate Donut")
-  println(s"Elements of stack1 = $stack1")
+  //Note - commented out to avoid deprecation warnings during compilation
+  //  val stack1: Stack[String] = Stack("Plain Donut", "Strawberry Donut", "Chocolate Donut")
+  //  println(s"Elements of stack1 = $stack1")
 
   //How to initialize a Stack using an Immutable List
   println("\nStep 2: How to initialize a Stack using an Immutable List")
