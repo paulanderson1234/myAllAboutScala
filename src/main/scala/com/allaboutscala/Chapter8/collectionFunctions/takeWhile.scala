@@ -38,4 +38,13 @@ object takeWhile extends App {
   println(s"Take elements which satisfy predicate for first element only using function from Step 3 = ${donuts.takeWhile(takeDonutPredicate)}")
   println(s"Take elements which satisfy predicate for all elements using function from Step 3 = ${donutsWithP.takeWhile(takeDonutPredicateWithP)}")
 
+
+  //Integer example using takeWhile
+  println("\nStep 5: How to use takeWhile with integers ")
+  val integers = Seq(1,2,3,4,5,6)
+  println(s"Sequence of integers in list = $integers")
+
+  val limitedInteger = integers.takeWhile(_ < 3)
+  println(s"limiting List to select elements <3 using takeWhile = $limitedInteger")
+
 }
