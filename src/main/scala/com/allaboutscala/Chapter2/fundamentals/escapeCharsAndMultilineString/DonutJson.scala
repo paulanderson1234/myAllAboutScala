@@ -10,7 +10,7 @@ object DonutJson extends App {
 //    val donutJson: String ="{"donut_name":"Glazed Donut","taste_level":"Very Tasty","price":2.50}"
 //    println(s"donutJson = $donutJson")
 
-    println("\nStep 2: Using backslash to escpae quotes")
+    println("\nStep 2: Using backslash to escpape quotes")
     val donutJson2: String ="{\"donut_name\":\"Glazed Donut\",\"taste_level\":\"Very Tasty\",\"price\":2.50}"
     println(s"donutJson2 = $donutJson2")
 

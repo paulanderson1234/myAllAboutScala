@@ -5,6 +5,9 @@ package com.allaboutscala.Chapter1.intelliJ.tutorial_04
   */
 object HelloWorld extends App {
 
-  println("Hello World from Scala!")
+  override def main(args: Array[String]) = {
 
+
+    println("Hello World from Scala!")
+  }
 }

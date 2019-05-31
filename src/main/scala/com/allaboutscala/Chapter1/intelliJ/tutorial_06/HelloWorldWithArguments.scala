@@ -5,9 +5,12 @@ package com.allaboutscala.Chapter1.intelliJ.tutorial_06
   */
 object HelloWorldWithArguments extends App {
 
-  println("Hello World With Arguments")
+  override def main(args: Array[String]) = {
 
-  println("Command line arguments are: ")
-  println(args.mkString(", "))
 
+    println("Hello World With Arguments")
+
+    println("Command line arguments are: ")
+    println(args.mkString(", "))
+  }
 }
